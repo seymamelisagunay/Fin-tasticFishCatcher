@@ -22,12 +22,18 @@ public class EndMiniGame : MonoBehaviour
     public GameObject table3;
     public GameObject table4;
     public GameObject table5;
+    public GameObject failTable;
 
     [SerializeField] public TextMeshProUGUI table1Kilo;
     [SerializeField] public TextMeshProUGUI table2Kilo;
     [SerializeField] public TextMeshProUGUI table3Kilo;
     [SerializeField] public TextMeshProUGUI table4Kilo;
     [SerializeField] public TextMeshProUGUI table5Kilo;
+
+    public Image cross1;
+    public Image cross2;
+    public Image cross3;
+
 
 
     // Update is called once per frame
@@ -85,7 +91,12 @@ public class EndMiniGame : MonoBehaviour
                 imageColor5.a = 1f;
                 icon5.color = imageColor5;
             }
-
         }
+
+        if (QTE2.FinalFalses == 3)
+        {
+            failTable.SetActive(true);
+        }
+
     }
 }

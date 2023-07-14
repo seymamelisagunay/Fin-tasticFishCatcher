@@ -27,7 +27,7 @@ public class BarScript : MonoBehaviour
             trueCheck++;
         }
 
-        value = QTE2.FinalTrues * 10+90;
+        value = QTE2.FinalTrues * 10;
 
         Pb.BarValue = value;
 
