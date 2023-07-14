@@ -5,7 +5,7 @@ using UnityEngine;
 public class BarScript : MonoBehaviour
 {
     public ProgressBar Pb;
-    public int value = 0;
+    static public int value = 0;
     int trueCheck = 1;
     int falseCheck = 1;
 
@@ -27,7 +27,7 @@ public class BarScript : MonoBehaviour
             trueCheck++;
         }
 
-        value = QTE2.FinalTrues * 10;
+        value = QTE2.FinalTrues * 10+90;
 
         Pb.BarValue = value;
 
