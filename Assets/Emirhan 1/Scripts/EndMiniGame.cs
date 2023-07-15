@@ -34,6 +34,8 @@ public class EndMiniGame : MonoBehaviour
     public Image cross2;
     public Image cross3;
 
+   public static bool gameOver = true;
+
 
 
     // Update is called once per frame
@@ -57,6 +59,7 @@ public class EndMiniGame : MonoBehaviour
                 Color imageColor1 = icon1.color;
                 imageColor1.a = 1f;
                 icon1.color = imageColor1;
+                gameOver = false;
             }
             if(fish==2)
             {
@@ -65,6 +68,7 @@ public class EndMiniGame : MonoBehaviour
                 Color imageColor2 = icon2.color;
                 imageColor2.a = 1f;
                 icon2.color = imageColor2;
+                gameOver = false;
 
             }
             if (fish == 3)
@@ -74,6 +78,7 @@ public class EndMiniGame : MonoBehaviour
                 Color imageColor3 = icon3.color;
                 imageColor3.a = 1f;
                 icon3.color = imageColor3;
+                gameOver = false;
             }
             if (fish == 4)
             {
@@ -82,6 +87,7 @@ public class EndMiniGame : MonoBehaviour
                 Color imageColor4 = icon4.color;
                 imageColor4.a = 1f;
                 icon4.color = imageColor4;
+                gameOver = false;
             }
             if (fish == 5)
             {
@@ -90,12 +96,14 @@ public class EndMiniGame : MonoBehaviour
                 Color imageColor5 = icon5.color;
                 imageColor5.a = 1f;
                 icon5.color = imageColor5;
+                gameOver = false;
             }
         }
 
         if (QTE2.FinalFalses == 3)
         {
             failTable.SetActive(true);
+            gameOver = false;
         }
 
     }

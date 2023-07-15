@@ -24,6 +24,9 @@ public class QTE2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(EndMiniGame.gameOver)
+        {
+
         if (WaitingForKey == 0)
         {
             QTEGenner = Random.Range(1, 4);
@@ -158,4 +161,5 @@ public class QTE2 : MonoBehaviour
             CountingDown = 1;
         }
     }
+}
 }
