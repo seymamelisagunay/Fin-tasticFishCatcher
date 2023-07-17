@@ -53,25 +53,25 @@ Material:
     m_Floats:
     - _Albedo_Advanced_Colouring: 1
     - _Alpha_Channel: 1
-    - _Depth: 0.03
-    - _Depth_Strength: 1
-    - _False_Displacement_Strength: -0.267
+    - _Depth: 1.45
+    - _Depth_Strength: 1.57
+    - _False_Displacement_Strength: -0.308
     - _False_Displacement_Tiling: 9
     - _Foam_Normal_Render: 1
     - _Foam_Render: 1
     - _Fresnel_Effect_Power: 1
     - _Gradient: 1
-    - _Normal_Strength: 0.75
+    - _Normal_Strength: 1.49
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.95
-    - _Speed: 0.75
-    - _Tiling: 9
+    - _Smoothness: 0.5
+    - _Speed: 1
+    - _Tiling: 3.75
     m_Colors:
     - _Color_A: {r: 0.25338194, g: 0.67016536, b: 0.735849, a: 0.4}
     - _Color_B: {r: 0.48362404, g: 0.6441512, b: 0.7169812, a: 0.6039216}
     - _Color_C: {r: 0.27058816, g: 0.49570608, b: 0.7568628, a: 1}
-    - _Main_Direction: {r: 1, g: -1, b: 0, a: 0}
+    - _Main_Direction: {r: 2, g: -2, b: 0, a: 0}
     - _Second_Direction: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3176851506685539521
