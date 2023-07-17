@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Easy Water
-  m_Shader: {fileID: -6465566751694194690, guid: a163e6edbdb3b904b9f6c487cc337c4b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: a163e6edbdb3b904b9f6c487cc337c4b,
+    type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -54,7 +55,7 @@ Material:
     - _Alpha_Channel: 1
     - _Depth: 0.03
     - _Depth_Strength: 1
-    - _False_Displacement_Strength: -0.1
+    - _False_Displacement_Strength: -0.267
     - _False_Displacement_Tiling: 9
     - _Foam_Normal_Render: 1
     - _Foam_Render: 1
